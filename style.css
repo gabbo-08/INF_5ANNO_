@@ -1,0 +1,49 @@
+h1 {
+    width: 100%;
+    text-align: center;
+    color: red;
+}
+
+table {
+    width: 30%;
+    margin: 0 auto;
+    border-collapse: collapse;
+}
+
+th {
+    color: blue;
+}
+
+.materie {
+    width: 50%;
+    margin: 0 auto;
+    border: 2px solid black;
+    text-align: center;
+}
+
+table.materie caption {
+    margin-bottom: 10px;
+}
+
+table.materie,
+table.materie th,
+table.materie td {
+    border: 2px solid black;
+    padding: 5px;
+}
+.sigla-descrizione {
+    display: flex;
+    gap: 20px; 
+    color: blue;
+    font-weight: bold;
+}
+
+.sigla, .descrizione {
+    color: blue;
+    text-align: center;
+}
+caption.testo{
+    color: blue; 
+
+
+}
